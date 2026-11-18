@@ -1,0 +1,43 @@
+.local_data/
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data
+.local_data/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Submission staging
+FINAL_PROJECT_SUBMISSION_STAGING/
+
+# Ignore secrets in every nested folder
+**/secrets.toml
+
+# Old presentation backups
+AI_Career_Path_Predictor_Presentation_BACKUP.pptx
+AI_Career_Path_Predictor_Presentation_PRE_EDIT_*.pptx
